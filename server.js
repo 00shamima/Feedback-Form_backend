@@ -9,7 +9,7 @@ const app = express();
 // --- FIX: Specific CORS Configuration for Local Host and Live Site ---
 const allowedOrigins = [
     'http://localhost:5174', // Your local frontend dev server (port may vary)
-    'https://00shaima.github.io' // YOUR LIVE GITHUB PAGES DOMAIN
+    'https://00shamima.github.io' // YOUR LIVE GITHUB PAGES DOMAIN
 ];
 
 const corsOptions = {
